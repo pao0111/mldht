@@ -3,3 +3,14 @@ version = '0.0.1'
 dependencies {
 	compile project(':ed25519-java')
 }
+
+sourceSets {
+	main {
+		java {
+			srcDir 'src'
+		}
+		resources {
+			srcDir 'src'
+		}
+	}
+}
