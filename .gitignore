@@ -4,4 +4,9 @@
 /bin/
 /build/
 /.settings/
+logs/
+/shutdown
+/baseID.config
+/config.xml
 .classpath
+*.cache

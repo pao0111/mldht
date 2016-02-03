@@ -1,5 +1,8 @@
 version = '0.0.1'
 
+apply plugin: 'application'
+mainClassName = 'the8472.mldht.Launcher'
+
 dependencies {
 	compile project(':ed25519-java')
 }
@@ -11,6 +14,14 @@ sourceSets {
 		}
 		resources {
 			srcDir 'src'
+		}
+	}
+	test {
+		java {
+			srcDir 'test'
+		}
+		resources {
+			srcDir 'test'
 		}
 	}
 }
